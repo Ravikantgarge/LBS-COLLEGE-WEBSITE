@@ -13,11 +13,12 @@ body {
 
  header{
   align-items: center;
-  width: 1400px;
+  /* width: 1400px; */
   height: 130px;
   position:relative;
-  background-color: #453abb;
-  left: 60px;
+  background-color: #0F0771;
+  /* left: 60px; */
+
 } 
  header .img1{
   position: relative;
@@ -32,28 +33,29 @@ header span {
 
 
  p{
+
   color: rgb(255, 255, 255);
-  /* background-color: #453abb; */
   text-transform: capitalize;
   text-align:center;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
   word-spacing: 0.06rem;
   position:relative;
-  bottom: 70px;
-  left: 60px;
+  bottom: 98px;
+  left: 20px;
   font-size: 1.9rem;
   letter-spacing: -1px;
+
  
   
 }
 
 nav {
   background: linear-gradient(to right, rgb(201, 209, 250) 15% , #bebaff 105%);
-  width: 1400px;
+  /* width: 1400px; */
  top: 10px;
   position: relative;
-  left: 59px;
+  /* left: 59px; */
   padding: 1px;
 }
 
@@ -132,9 +134,10 @@ nav ul li ul li a {
 .learn {
   border: 2px solid;
   width: 13rem;
-  margin-left: 5rem;
+  margin-left: 1rem;
   background-color: var(--main-color);
   color: var(--color);
+  /* padding: 0.3vw; */
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   border-radius: 2rem;
@@ -172,7 +175,7 @@ nav ul li:hover>ul {
     position: relative;
     top: 20px;
     left: 56px;
-    border:5px solid #453abb;
+    border:5px solid #0F0771;
     border-radius: 15px;
 }
  
@@ -182,7 +185,7 @@ nav ul li:hover>ul {
   font-size: 26px;
   text-align: center;
   color: #fff;
-  background-color: #453abb;
+  background-color: #0F0771;
  font-weight: bold;
  position: relative;
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
@@ -199,18 +202,18 @@ button{
 }
 button:hover{
   cursor: pointer;
-  background-color: #453abb ;
+  background-color:#0F0771 ;
 
 }
 button:active{
   transform: scale(0.95);
 }
 button:focus{
-  background-color: #453abb;
+  background-color: #0F0771;
 }
-button:first-of-type{
-  background-color: #453abb;
-}
+/* button:first-of-type{
+  background-color: #0F0771;
+} */
  button a{
 text-decoration: none;
 color: rgb(255, 255, 255);
@@ -223,8 +226,8 @@ position: relative;
   font-size: 22px;
   font-weight: bold;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color:#453abb;
-  text-decoration: underline; 
+  color:#0F0771;
+  /* text-decoration: underline;  */
   list-style: none;
   line-height: 220px;
   text-align: center;
@@ -241,7 +244,7 @@ position: relative;
   text-align: center;
 }
 #button1 {
-  background-color: rgb(45, 72, 63);
+  background-color: #0F0771;
   position: relative;
   padding: 12px 25px;
   bottom: 560px;
@@ -250,13 +253,13 @@ position: relative;
   color: #fff;
 }  
 .container2{
-  max-width: 1408px;
+  /* max-width: 1408px; */
   max-height: 300px;
   margin: 0 auto;
   padding: 20px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
  position: relative;
- background-color: #453abb;
+ background-color: #0F0771;
  bottom: 603px;
 
 }
@@ -336,7 +339,7 @@ position: relative;
 
 #button{
   padding: 4px 10px;
-  /* background-color: #453abb ; */
+  background-color: #0F0771;
   border:1px solid #fff;
   color: #fff;
   font-size: 10px;
