@@ -9,31 +9,33 @@
     
   }
   
-  .container1{
+   .container1{
     position: relative;
-    max-width: 1400px;
+    max-width: 1408px;
     max-height: 600px;
     margin: 3px auto;
     padding: 20px;
     background-color: #fff;
-    border-radius: 5px;
-   background: linear-gradient(to right, #453abb 25%, white 15%);
+    border: 5px solid #0F0771;
+   background: linear-gradient(to right, #0F0771 25%, white 15%);
    top: 18px;
    left: 3px;
-   border: 5px solid  #453abb ;
-  }
+   border-radius: 15px;
+   
+  } 
   header{
     align-items: center;
-    width: 1400px;
+    /* width: 1400px; */
     height: 130px;
+    /* border-radius: 0px 0px 115px 0px; */
     position:relative;
-    background-color: #453abb;
-    left: 62px;
+    background-color: #0F0771;
+    /* left: 62px; */
   } 
    header .img1{
     position: relative;
     width: 95px;
-    height: 90px;
+    height: 95px;
     top: 18px;
     left: 30px;
   }
@@ -52,34 +54,18 @@
     font-weight: 600;
     word-spacing: 0.06rem;
     position:relative;
-    bottom: 70px;
+    bottom: 95px;
     left: 60px;
     font-size: 1.9rem;
     letter-spacing: -1px;
    
     
-  }
-  .header-text2{
-    color: rgb(255, 255, 255);
-    text-transform: capitalize;
-    text-align:center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    word-spacing: 0.06rem;
-    position:relative;
-    top: 5px;
-    font-size: 1.9rem;
-    letter-spacing: -1px;
-    right: 210px;
-  }
+  } 
 
-  
   nav {
     background: linear-gradient(to right, rgb(201, 209, 250) 15% , #bebaff 105%);
-    width: 1400px;
    top: 10px;
     position: relative;
-    left: 62px;
     padding: 1px;
   }
   
@@ -162,6 +148,7 @@
     margin-left: 5rem;
     background-color: var(--main-color);
     color: var(--color);
+    /* padding: 0.3vw; */
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     border-radius: 2rem;
@@ -205,18 +192,25 @@
   }
   
   h1 {
+    padding: 15px 10px;
+    font-size: 26px;
     text-align: center;
-   bottom: 670px;
-    position: relative;
-    color:#453abb;
-    font-size: 32px;
-    right: 780px;
+    color: #fff;
+    background-color: #0F0771;
+   font-weight: bold;
+   position: relative;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+   letter-spacing: 1px;
+    bottom: 755px;
+   right: 858px;
+    width: 1398px;    
+   
   }
 
   p{
     font-weight: bold;
     position: relative;
-   bottom: 200px;
+   bottom: 250px;
     font-size: 13px;
    right: 832px;
    color: #ffffff;
@@ -227,10 +221,10 @@
   
  h6{
   position: relative;
-  bottom: 550px;
+  bottom: 640px;
   right: 350px;
   font-size: 18px;
-  color: #453abb;
+  color: #0F0771;
  }
   
   input[type="text"],
@@ -245,17 +239,17 @@
     background-color: #f2f2f2;
     right: 468px;
     position: relative;
-    bottom: 572px;
+    bottom: 632px;
   }
 
   input[type="checkbox"]{
     position: relative;
     right: 890px;
-    bottom: 547px;
+    bottom: 577px;
   }
 
   h3{
-    bottom: 575px;
+    bottom: 607px;
     right: 410px;
     position: relative;
     font-size: 12px;
@@ -263,7 +257,7 @@
 
   button[type="submit"] {
     padding: 8px 20px;
-    background-color: #453abb ;
+    background-color: #0F0771 ;
     border: none;
     color: #fff;
     font-size: 14px;
@@ -272,7 +266,7 @@
     transition: background-color 0.3s;
     position: relative;
     right: 325px;
-    bottom: 585px;
+    bottom: 605px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
@@ -283,17 +277,14 @@
   }
   
 .container2{
-  
-  max-width: 1400px;
   max-height: 300px;
   margin: 0 auto;
   padding: 20px;
   /* background-color: #fff; */
-  border-radius: 5px;
  position: relative;
- background-color: #453abb;
- top: 26px;
- left: 3px;
+ background-color:#0F0771;
+ top: 22px;
+ 
 }
  .container2 .map2{
   position: relative;
@@ -339,7 +330,7 @@
   font-size: 14px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   left:605px ;
-  list-style: none;
+  list-style: none; 
 }
 .link-two a{
   text-decoration:none;
