@@ -11,11 +11,9 @@
   
    header{
     align-items: center;
-    width: 1408px;
     height: 130px;
     position:relative;
-    background-color: #453abb;
-    left: 60px;
+    background-color: #0F0771;
   } 
    header .img1{
     position: relative;
@@ -37,20 +35,16 @@
     font-weight: 600;
     word-spacing: 0.06rem;
     position:relative;
-    bottom: 70px;
+    bottom: 95px;
     left: 60px;
     font-size: 1.9rem;
     letter-spacing: -1px;
-   
-    
   }
   
   nav {
     background: linear-gradient(to right, rgb(201, 209, 250) 15% , #bebaff 105%);
-    width: 1408px;
    top: 10px;
     position: relative;
-    left: 59px;
     padding: 1px;
   }
   
@@ -132,6 +126,7 @@
     margin-left: 5rem;
     background-color: var(--main-color);
     color: var(--color);
+    /* padding: 0.3vw; */
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     border-radius: 2rem;
@@ -162,7 +157,7 @@
       width:1408px;
       height: 500px;
       background-color: #fff;
-      border:5px solid #453abb;
+      border:5px solid #0F0771;
       box-sizing: border-box;
       text-align: center;
       border-radius: 15px;
@@ -171,12 +166,16 @@
       position: relative;
       top: 18px;
     }
+    .box a{
+      color: #fff;
+      text-decoration: none;
+    }
     h1{
       padding: 15px 10px;
       font-size: 26px;
       text-align: center;
       color: #fff;
-      background-color: #453abb;
+      background-color: #0F0771;
      font-weight: bold;
      position: relative;
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
@@ -198,17 +197,17 @@
   
   button:hover{
       cursor: pointer;
-      background-color: #453abb ;
+      background-color: #0F0771;
     
   }
   button:active {
       transform: scale(0.95);
     }
     button:focus{
-      background-color: #453abb;
+      background-color: #0F0771;
     }
     button:first-of-type{
-      background-color: #453abb;
+      background-color: #0F0771;
     }
   
    .News-current li{
@@ -237,14 +236,11 @@
    }
     
    .container2{
-    left: 5px;
-    max-width: 1408px;
     max-height: 300px;
     margin: 0 auto;
     padding: 20px;
-    border-radius: 5px;
    position: relative;
-   background-color: #453abb;
+   background-color:#0F0771;
    bottom: 738px;
   
   }
