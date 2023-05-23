@@ -11,11 +11,10 @@
   
    header{
     align-items: center;
-    width: 1400px;
     height: 130px;
     position:relative;
-    background-color: #453abb;
-    left: 60px;
+    background-color:#0F0771;
+
   } 
    header .img1{
     position: relative;
@@ -37,7 +36,7 @@
     font-weight: 600;
     word-spacing: 0.06rem;
     position:relative;
-    bottom: 70px;
+    bottom: 95px;
     left: 60px;
     font-size: 1.9rem;
     letter-spacing: -1px;
@@ -47,10 +46,8 @@
   
   nav {
     background: linear-gradient(to right, rgb(201, 209, 250) 15% , #bebaff 105%);
-    width: 1400px;
    top: 10px;
     position: relative;
-    left: 59px;
     padding: 1px;
   }
   
@@ -129,7 +126,7 @@
   .learn {
     border: 2px solid;
     width: 13rem;
-    margin-left: 5rem;
+    margin-left: 1rem;
     background-color: var(--main-color);
     color: var(--color);
     /* padding: 0.3vw; */
@@ -169,7 +166,7 @@
     position: relative;
     top: 20px;
     left: 56px;
-    border:5px solid #453abb;
+    border:5px solid #0F0771;
     border-radius: 15px;
   }
   
@@ -179,7 +176,7 @@
     font-size: 26px;
     text-align: center;
     color: #fff;
-    background-color: #453abb;
+    background-color: #0F0771;
    font-weight: bold;
    position: relative;
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
@@ -200,29 +197,28 @@ button a{
 }
 button:hover{
   cursor: pointer;
-  background-color: #453abb ;
+  background-color: #0F0771 ;
 }
 button:active{
   transform: scale(0.95);
 }
   button:first-of-type{
-  background-color: #453abb;
+  background-color: #0F0771;
 }
-
 
 .lpl-header{
-    position: relative;
-    font-size: 22px;
-    font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#453abb;
-    text-decoration: underline; 
-    list-style: none;
-    text-align: center;
-    bottom: 595px;
+  position: relative;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#0F0771;
+  /* text-decoration: underline;  */
+  list-style: none;
+  text-align: center;
+  bottom: 585px;
 }
 .box2{
-    bottom: 65px;
+    bottom:65px;
     background:#fff;
     width:1408px;
     height:750px;
@@ -230,7 +226,7 @@ button:active{
     text-align: center;
     position: relative; 
     left: 56px;
-    border:5px solid #453abb;
+    border:5px solid #0F0771;
     border-radius: 15px;
 }
 .lpl-image .img1{
@@ -239,8 +235,8 @@ button:active{
     height: 300px;
     top: 30px;
     border-radius: 20px 0px 20px 0px;
-    border-left: 5px solid  #453abb;
-    border-right:5px solid  #453abb ;
+    border-left: 5px solid  #0F0771;
+    border-right:5px solid  #0F0771;
 }
 .lpl-image .img2{
     position: relative;
@@ -248,8 +244,8 @@ button:active{
     width: 500px;
     height: 300px;
     border-radius: 20px 0px 20px 0px;
-    border-left: 5px solid  #453abb;
-    border-right:5px solid  #453abb ;
+    border-left: 5px solid  #0F0771;
+    border-right:5px solid#0F0771;
 }
 .lpl-image .img3{
     position: relative;
@@ -257,23 +253,23 @@ button:active{
     width: 650px;
     height: 350px;
     border-radius: 20px 0px 20px 0px;
-    border-left: 5px solid  #453abb;
-    border-right:5px solid  #453abb ;
+    border-left: 5px solid  #0F0771;
+    border-right:5px solid  #0F0771;
 }
 
 .container2{
-    max-width: 1408px;
+    width: 1540px;
     max-height: 300px;
     margin: 0 auto;
     padding: 20px;
-    border-radius: 5px;
+    right: 60px;
     position: relative;
-    background-color: #453abb;
+    background-color: #0F0771;
     top: 97px;
     }
 .container2 .map2{
     position: relative;
-    right: 495px;
+    right: 575px;
     top: 12px;
   }
   .links{
@@ -286,7 +282,7 @@ button:active{
     display: flex;
     padding: 0;
     margin: 0;
-    left: 420px;
+    left: 490px;
     color:#fff;
     
   }
@@ -347,7 +343,7 @@ button:active{
   
   #button{
     padding: 4px 10px;
-    /* background-color: #453abb ; */
+    background-color: #0F0771 ;
     border:1px solid #fff;
     color: #fff;
     font-size: 10px;
@@ -391,8 +387,8 @@ button:active{
     width: 350px;
     height: 250px;
     border-radius: 20px 0px 20px 0px;
-    border-left: 5px solid  #453abb;
-    border-right:5px solid  #453abb ;
+    border-left: 5px solid  #0F0771;
+    border-right:5px solid  #0F0771 ;
     right: 153px;
   }
   .lpl-image1 .img5{
@@ -401,8 +397,8 @@ button:active{
     width: 350px;
     height: 250px;
     border-radius: 100px 100px 100px 100px;
-    border-left: 5px solid  #453abb;
-    border-right:5px solid  #453abb ;
+    border-left: 5px solid #0F0771;
+    border-right:5px solid  #0F0771 ;
  
   }
   .lpl-image1 .img6{
@@ -411,7 +407,7 @@ button:active{
     width: 350px;
     height: 250px;
     border-radius: 20px 0px 20px 0px;
-    border-left: 5px solid  #453abb;
-    border-right:5px solid  #453abb ;
+    border-left: 5px solid  #0F0771;
+    border-right:5px solid  #0F0771 ;
     left: 150px;
   }
